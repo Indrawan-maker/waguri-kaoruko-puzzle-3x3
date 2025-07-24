@@ -2,7 +2,7 @@ import img from "../assets/images/lobby-img.webp"
 import 'primeicons/primeicons.css';
         
 
-export default function Lobby() {
+export default function Lobby({ onClick }) {
     return (
         <>
         <div className="grid text-center font-[inter] text-gray-50 justify-center p-40 gap-6">
@@ -15,7 +15,11 @@ export default function Lobby() {
         <h1 className=" text-2xl font-bold mb-3">Puzzle gambar 3x3</h1>
         <h2 className="font-semibold">Creator Indrawan</h2>
             </div>
-                    <button className="flex justify-center items-center border-3 border-[#4b525a] hover:bg-[#4b525a] bg-[#1f2226] w-24 h-12 rounded-lg m-auto cursor-pointer transition-all duration-600" >
+                    <button 
+                    onClick={() => onClick()}
+                    className="flex justify-center items-center border-3 border-[#4b525a] hover:bg-[#4b525a] bg-[#1f2226] w-24 h-12 rounded-lg m-auto
+                    cursor-pointer transition-all duration-600" >
+                        
             <div className="flex gap-2 font-light">
             <i className="pi pi-caret-right" style={{ fontSize: '1.40rem', color:"white" }}></i>
             Play
