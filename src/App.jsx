@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Board from './components/Board'
 import Lobby from './components/Lobby'
 
@@ -11,7 +11,7 @@ function handleBtn() {
 }
   
   return (
-    <div className='bg-[#282d35] min-h-screen'>
+    <div className='bg-[#0f172b] min-h-screen'>
       <section>
         {isShow ? null : 
     <Lobby 

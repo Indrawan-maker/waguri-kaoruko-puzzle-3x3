@@ -6,7 +6,7 @@ export default function Lobby({ onClick }) {
     return (
         <>
         <div className="grid text-center font-[inter] text-gray-50 justify-center p-40 gap-6">
-            <div className="w-42 m-auto justify-center items-center">
+            <div className="w-42 m-auto justify-center items-center mb-1">
             <img src={img} 
             alt="" 
             className=" w-full h-full transition-all duration-600 hover:-translate-y-2"/>
