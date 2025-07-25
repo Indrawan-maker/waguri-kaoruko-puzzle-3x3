@@ -31,7 +31,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-project ini di buat untuk memperkuar saya mempeljari reactjs
+project ini di buat untuk memperkuat saya dalam mempelajari reactjs
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
