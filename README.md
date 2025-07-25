@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=600px height=200px src="./src/assets/images/overviewWeb.png" alt="Project logo"></a>
+ <img width=500px height=350px src="./src/assets/images/overviewWeb.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">anime-puzzle</h3>
@@ -45,20 +45,24 @@ susun kembali puzzle yang teracak dengan mengklik salah satu bagiannya
  
 ### Installing
 
-run npm run dev in your terminal
+
 
 ```
-npm i
+npm install
 
 ```
+
+```
+
 npm run dev
 
 ```
 
-go to 
+```
+
+localhost:5137
 
 ```
-localhost:5137
 
 
 project ready run on your computer
