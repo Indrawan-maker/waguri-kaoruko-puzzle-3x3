@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=500px height=350px src="./src/assets/images/overviewWeb.png" alt="Project logo"></a>
+ <img width=450px height=350px src="./src/assets/images/overviewWeb.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">anime-puzzle</h3>
@@ -31,7 +31,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-project ini di buat untuk memperkuat saya dalam mempelajari reactjs
+project ini di buat untuk memperkuat pemahaman saya dalam mempelajari reactjs
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
