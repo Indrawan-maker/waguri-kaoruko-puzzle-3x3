@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=400px height=200px src="./src/assets/images/overviewWeb.png" alt="Project logo"></a>
+ <img width=600px height=200px src="./src/assets/images/overviewWeb.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">anime-puzzle</h3>
@@ -49,13 +49,10 @@ run npm run dev in your terminal
 
 ```
 npm i
-```
 
-go to 
-
-```
 ```
 npm run dev
+
 ```
 
 go to 
