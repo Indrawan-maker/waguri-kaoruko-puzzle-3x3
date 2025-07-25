@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> click the picture it will move.
+<p align="center"> project for fun hahaah.
     <br> 
 </p>
 
@@ -31,7 +31,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-susun kembali puzzle yang teracak dengan mengklik salah satu bagiannya
+project ini di buat untuk memperkuar saya mempeljari reactjs
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -39,15 +39,18 @@ susun kembali puzzle yang teracak dengan mengklik salah satu bagiannya
 ### Prerequisite
 
 ```
-  - vite@latest : pick React for freamwork, and ordinary javaScript for the languange
+
+  vite@latest
 
 ```
+  pick React for freamwork, and ordinary javaScript for the languange
  
 ### Installing
 
 
 
 ```
+
 npm install
 
 ```
@@ -61,6 +64,7 @@ npm run dev
 ```
 
 localhost:5137
+
 
 ```
 
