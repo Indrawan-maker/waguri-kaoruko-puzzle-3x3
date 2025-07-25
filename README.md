@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="./src/assets/images/overviewWeb.png" alt="Project logo"></a>
+ <img width=400px height=200px src="./src/assets/images/overviewWeb.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">anime-puzzle</h3>
@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> click the picture it will move.
     <br> 
 </p>
 
@@ -25,11 +25,9 @@
 - [📝 Table of Contents](#-table-of-contents)
 - [🧐 About ](#-about-)
 - [🏁 Getting Started ](#-getting-started-)
-  - [Prerequisites](#prerequisites)
+  - [Prerequisite](#prerequisite)
   - [Installing](#installing)
 - [⛏️ Built Using ](#️-built-using-)
-- [✍️ Authors ](#️-authors-)
-- [🎉 Acknowledgements ](#-acknowledgements-)
 
 ## 🧐 About <a name = "about"></a>
 
@@ -37,11 +35,8 @@ susun kembali puzzle yang teracak dengan mengklik salah satu bagiannya
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-What things you need to install the software and how to install them.
+### Prerequisite
 
 ```
   - vite@latest : pick React for freamwork, and ordinary javaScript for the languange
@@ -50,33 +45,33 @@ What things you need to install the software and how to install them.
  
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
-
 run npm run dev in your terminal
 
+```
+npm i
+```
+
+go to 
+
+```
 ```
 npm run dev
 ```
 
-go to localhost:5137
+go to 
 
 ```
+localhost:5137
+
+```
+
 project ready run on your computer
-```
-
 
 ``
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 
 - [ReactJs](https://react.dev/) - Web Framework
-- [Vite](https://vite.dev/) - fast build adn free memory
+- [Vite](https://vite.dev/) - fast build and free memory
 
-## ✍️ Authors <a name = "authors"></a>
-
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
