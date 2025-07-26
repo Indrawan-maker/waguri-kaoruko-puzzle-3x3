@@ -64,15 +64,15 @@ export default function Board({ onBack }) {
         
         for (let i = shuffled.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1))
-            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+            ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
         }
 
         const inversions = countInversions(shuffled)
         if (inversions % 2 !== 0) {
             if (shuffled[0] !== 8 && shuffled[1] !== 8) {
-                [shuffled[0], shuffled[1]] = [shuffled[1], shuffled[0]]
+                ;[shuffled[0], shuffled[1]] = [shuffled[1], shuffled[0]]
             } else {
-                [shuffled[2], shuffled[3]] = [shuffled[3], shuffled[2]]
+                ;[shuffled[2], shuffled[3]] = [shuffled[3], shuffled[2]]
             }
         }
         
