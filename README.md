@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> project for fun hahaah.
+<p align="center"> puzzle games.
     <br> 
 </p>
 
@@ -77,5 +77,4 @@ project ready run on your computer
 
 - [ReactJs](https://react.dev/) - Web Framework
 - [Vite](https://vite.dev/) - fast build and free memory
-
 

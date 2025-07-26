@@ -8,7 +8,7 @@ import img6 from "../assets/images/anime-6.jpg"
 import img7 from "../assets/images/anime-7.jpg"
 import img8 from "../assets/images/anime-8.jpg"
 import img9 from "../assets/images/anime-9.jpg"
-import 'primeicons/primeicons.css';
+import 'primeicons/primeicons.css'
 
 export default function Preview({ onComplete, onBack }) {
     const [countdown, setCountdown] = useState(3)
