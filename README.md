@@ -77,4 +77,5 @@ project ready run on your computer
 
 - [ReactJs](https://react.dev/) - Web Framework
 - [Vite](https://vite.dev/) - fast build and free memory
+- [TailwindCss](https://tailwindcss.com/docs) - style utility
 

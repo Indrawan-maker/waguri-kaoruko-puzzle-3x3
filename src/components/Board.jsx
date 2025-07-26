@@ -64,15 +64,15 @@ export default function Board({ onBack }) {
         
         for (let i = shuffled.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1))
-            ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
         }
 
         const inversions = countInversions(shuffled)
         if (inversions % 2 !== 0) {
             if (shuffled[0] !== 8 && shuffled[1] !== 8) {
-                ;[shuffled[0], shuffled[1]] = [shuffled[1], shuffled[0]]
+                [shuffled[0], shuffled[1]] = [shuffled[1], shuffled[0]]
             } else {
-                ;[shuffled[2], shuffled[3]] = [shuffled[3], shuffled[2]]
+                [shuffled[2], shuffled[3]] = [shuffled[3], shuffled[2]]
             }
         }
         
@@ -165,7 +165,7 @@ export default function Board({ onBack }) {
                     </div>
                 )}
 
-                <div className={`grid grid-cols-3 gap-1 w-96 h-96 ${isShuffling ? 'opacity-70' : ''}`}>
+                <div className={`grid grid-cols-3 gap-1 sm:w-92 sm:h-92 md:w-96 md:h-96 ${isShuffling ? 'opacity-70' : ''}`}>
                     {tiles.map((tile, index) => (
                         <div
                             key={index}
