@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @keyframes bounceHorizontalLeft {
     0%, 100% {
     transform: translateX(-25%); 

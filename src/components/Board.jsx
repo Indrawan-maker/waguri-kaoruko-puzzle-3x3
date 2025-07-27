@@ -11,6 +11,11 @@ import img9 from "../assets/images/anime-9.jpg"
 import audio from "../assets/sound/loveLori.mp3"
 import 'primeicons/primeicons.css'
 
+// sisa task 
+// responsive btn  pakai xs:
+// atur confetti
+// set game lose when timelimit
+
 export default function Board({ onBack }) {
     const [tiles, setTiles] = useState([])
     const [moves, setMoves] = useState(0)
@@ -136,13 +141,13 @@ export default function Board({ onBack }) {
                             ? "Mengacak gambar..." 
                             : isLose ? "Anda kalah" : 
                             isWon 
-                                ? "Selamat! Anda menang!" 
+                                ? "Sn[[nelamat! Anda menang!" 
                                 : "Selesaikan puzzle!"}
                     </p>
                 </div>
                 
                 <div className="flex justify-between items-center mb-3">
-                    <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-1 md:gap-3">
                         <i className="pi pi-clock text-white"></i>
                         <p className="font-normal text-white">{formatTime()}</p>
                     </div>
@@ -150,9 +155,9 @@ export default function Board({ onBack }) {
                     <div className="flex justify-center items-center">
                         <button
                             onClick={onBack}
-                            className="flex items-center gap-2 cursor-pointer border-3 border-[#4b525a] hover:bg-[#4b525a] bg-[#1f2226] w-26 h-10 font-stretch-ultra-condensed text-white rounded-lg transition-colors px-3 text-center"
+                            className="flex items-center gap-1 md:gap-2 cursor-pointer border-3 border-[#4b525a] hover:bg-[#4b525a] bg-[#1f2226]  min-w-18 max-w-22 max-h-10 font-stretch-ultra-condensed text-white rounded-lg transition-colors px-3 text-center"
                         >
-                            <i className="pi pi-arrow-left  bounceHorizontalLeft ml-2" style={{ fontSize: '0.800rem', color:"white" }}></i>
+                            <i className="pi pi-arrow-left bounceHorizontalLeft text-center" style={{ fontSize: '0.800rem', color:"white" }}></i>
                             reset
                         </button>
                     </div>
@@ -165,7 +170,7 @@ export default function Board({ onBack }) {
                     </div>
                 )}
 
-                <div className={`grid grid-cols-3 gap-1 sm:w-92 sm:h-92 md:w-96 md:h-96 ${isShuffling ? 'opacity-70' : ''}`}>
+                <div className={`grid grid-cols-3 w-86 md:gap-1 md:w-96 md:h-96 ${isShuffling ? 'opacity-70' : ''}`}>
                     {tiles.map((tile, index) => (
                         <div
                             key={index}

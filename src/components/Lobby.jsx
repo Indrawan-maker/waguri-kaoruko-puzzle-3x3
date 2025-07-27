@@ -17,7 +17,7 @@ export default function Lobby({ onClick }) {
             </div>
             <button 
                 onClick={onClick}
-                className="flex justify-center items-center border-3 border-[#4b525a] hover:bg-[#4b525a] bg-[#1f2226] w-24 h-12 rounded-lg m-auto
+                className="flex justify-center items-center border-3 border-[#4b525a] hover:bg-[#4b525a] bg-[#1f2226]  min-h-12 min-w-22 rounded-lg m-auto
                 cursor-pointer transition-all duration-600" 
             >
                 <div className="flex gap-2 font-light">
