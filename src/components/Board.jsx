@@ -14,9 +14,9 @@ import { useWindowSize } from 'react-use'
 import Confetti from 'react-confetti'
 
 // sisa task 
-// responsive btn  pakai xs:✅
-// atur confetti
-// set game lose when timelimit
+// responsive :✅
+// atur confetti:✅
+// set game lose when timelimit:✅
 
 export default function Board({ onBack }) {
     const [tiles, setTiles] = useState([])
@@ -53,6 +53,7 @@ export default function Board({ onBack }) {
             setTimeLeft(prev => {
                 if (prev <= 1) {
                     clearInterval(timerRef.current)
+                    setIsLose(true)
                     return 0
                 }
                 return prev - 1
