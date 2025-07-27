@@ -1,4 +1,4 @@
-import img from "../assets/images/lobby-img.webp"
+import img from "../assets/images/lobby-img.png"
 import 'primeicons/primeicons.css';
 
 export default function Lobby({ onClick }) {
