@@ -163,7 +163,7 @@ export default function Board({ onBack }) {
                 <div className="flex justify-center items-center">
                     <button
                         onClick={onBack}
-                        className="flex items-center gap-1 md:gap-2 cursor-pointer border-3 border-[#4b525a] hover:bg-[#4b525a] bg-[#1f2226]  min-w-18 max-w-22 max-h-10 font-stretch-ultra-condensed text-white rounded-lg transition-colors px-3 text-center"
+                        className="flex items-center gap-1 md:gap-2 cursor-pointer border-3 border-[#4b525a] hover:bg-[#4b525a] bg-[#1f2226]  min-w-18 max-w-22 h-10 font-stretch-ultra-condensed text-white rounded-lg transition-colors px-3 text-center"
                     >
                         <i className="pi pi-arrow-left bounceHorizontalLeft text-center" style={{ fontSize: '0.800rem', color: "white" }}></i>
                         reset
